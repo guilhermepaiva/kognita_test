@@ -1,0 +1,557 @@
+[
+    {
+        "title": "Adding write.writerow to a Selenium Script resulted in not every row has quotation mark",
+        "text": "so I use this GitHub Repo to mine Youtube comments. Then I added the following code so that the result would automatically be stored in a CSV file.But the in the CSV file Any solutions?",
+        "author": "Fawwaz Zaini Ahmad",
+        "date": "2020-08-11 13:19:16Z",
+        "tags": [
+            "python",
+            "selenium"
+        ]
+    },
+    {
+        "title": "Loop and Melt over multiple columns in python? [duplicate]",
+        "text": "See picture attached for what I'm trying to accomplish. I have no problem melting over one column, but as soon as I try to loop, it breaks.Get an error that Data needs to be 1-dimensional.",
+        "author": "chicagobeast12",
+        "date": "2020-08-11 12:44:29Z",
+        "tags": [
+            "python",
+            "pandas"
+        ]
+    },
+    {
+        "title": "tkinter converted to exe not opening",
+        "text": "I was making some simple program using tkinter which allows me to change my computer resolution. It runs fine when directly running it thought the python IDLE, but when I convert it to an EXE using auto-py-to-exe and py-installer, the tkinter window doesn't open up and the command prompt momentarily opens until closing by itself.\nAt first I thought it was my code or modules as my code uses winapi, but I tried it on another tkinter I made but this also fails to open a converted tkinter exe.",
+        "author": "mistersenpai",
+        "date": "2020-08-11 12:31:11Z",
+        "tags": [
+            "python",
+            "winapi",
+            "tkinter"
+        ]
+    },
+    {
+        "title": "AttributeError: 'NoneType' object has no attribute 'init' [closed]",
+        "text": "\r\n                     Update the question so it's  for Stack Overflow.\r\n                Closed .How to overcome this error in Python?I get this error when I am using the attribute '' for initializing a tracker with the first frame and a bounding box.",
+        "author": "Barath CSS",
+        "date": "2020-08-11 12:37:00Z",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "title": "Google Cloud Run with gunicorn/flask - getting intermittent 504s",
+        "text": "I run a Flask application on Cloud Run with gunicorn and worker type gthread. On low level, this API just writes/retrieves entries from Datastore and Pubsub so all operations are light. The traffic is 20,000 requests a day with max QPS 20 requests and average QPS 2Every few days/weeks, a portion of traffic (25%-50%) gets a 504 response with the following error:After a few hours, the issue resolves itself (redeploying the app or a new CR instance kicking in solves it instantly). Those 504 requests don't seem to even reach the application. This error does not seem to be linked to any errors in stderr, stdout or increases in QPS. I've set up some advanced logging and cloud profiler but I don't get any useful information. This application ran perfectly fine on App Engine with gunicorn sync worker. The only difference is gunicorn settings. Sync worker worked very slow on CR so I used gthread instead.Any ideas where to look next?Dockerfileapp.pygcloud deploy command:",
+        "author": "cherry9090",
+        "date": "2020-08-11 12:47:31Z",
+        "tags": [
+            "python",
+            "google-cloud-platform",
+            "gunicorn",
+            "google-cloud-run"
+        ]
+    },
+    {
+        "title": "Apple Sign In Python",
+        "text": "I want to make an apple sign in with social auth python. Now I have a piece of code below. When I do a request, I get an invalid grant error. I think that 'id_token' is not valid. But I don't know how to get that id_token, because I get the id_token after the request. Can anybody help me. Big Thanks!",
+        "author": "Ezra P.",
+        "date": "2020-08-11 12:43:49Z",
+        "tags": [
+            "python",
+            "django",
+            "oauth",
+            "jwt",
+            "sign"
+        ]
+    },
+    {
+        "title": "Pandas how to calculate time since action in an app data dataframe",
+        "text": "I have a database of userid, timestamp, action. Thousands of rows per userid over time. The action performed  can be login, invalid password, invalid login attempts.I am trying to work out how the time it takes the user to login successfully after a failed login attempts. I'm not too sure how to even get started here.I come from a SAS background and would use retain for something like that but how do I iterate over rows sorted by user ID and timestamp?Thanks",
+        "author": "Mobix",
+        "date": "2020-08-11 12:38:28Z",
+        "tags": [
+            "python",
+            "pandas"
+        ]
+    },
+    {
+        "title": "Importing module in jupyterlab notebook",
+        "text": "Currently working through the Python Crash Course by Eric Matheshaving trouble importing module from another file as is required from page 243, am unsure whether to change ipynb to py or not, and is this as simple as renaming the file with .py at the end",
+        "author": "rrss",
+        "date": "2020-08-11 12:30:30Z",
+        "tags": [
+            "python",
+            "jupyter-notebook",
+            "jupyter-lab",
+            "modulenotfounderror"
+        ]
+    },
+    {
+        "title": "Call dbutils.notebook.exit() from a sql notebook",
+        "text": "I'm fairly new to databricks and I have a query.I have a schedule job which calls a sql notebookThe sql notebook has about 30 cmd cells doing various task. I'd like to add a cmd cell at the top which if the result is 0 then it exits the notebook and fails the job. The new cmd could use the following logicI've been reading about the dbutils.notebook.exit, but just confused as hell. Is there an easy way to do what I'm asking. I'm only allowed use sql or pythonThanks in advance",
+        "author": "RG0107",
+        "date": "2020-08-11 12:45:13Z",
+        "tags": [
+            "python",
+            "sql",
+            "databricks"
+        ]
+    },
+    {
+        "title": "How to move Multiple Qpushbuttons in QWidget",
+        "text": "I have a list that contains selected Qpushbuttons in Qwidget. I want to move that buttons from the original position to Current mouse position.",
+        "author": "Teja93",
+        "date": "2020-08-11 12:49:49Z",
+        "tags": [
+            "python",
+            "python-2.7",
+            "pyqt",
+            "pyqt4"
+        ]
+    },
+    {
+        "title": "Kivy Pong Game on_touch_move moves both paddles simoultanouesly",
+        "text": "I have started learning python a few months ago, and I'd like to start developing my own app. I chose Kivy and I'm following along with .The tutorial uses the following code for adding touch and movement:When I used this code both of my paddles moved at the same time. I added some brackets:After this, I was able to move my left paddle, but my right moved the left one as well.I ended up using the code from the kivy website, which did work:Could someone explain why one code runs properly, why the other doesn't?\nThanks in advance!",
+        "author": "Nikoletta Szab\u00f3",
+        "date": "2020-08-11 12:47:37Z",
+        "tags": [
+            "python",
+            "kivy"
+        ]
+    },
+    {
+        "title": "Scope in Python subplot similar to MATLAB's stackedplot()",
+        "text": "Is there a plot function available in Python that is same as MATLAB's ?\n in MATLAB can line plot several variables with the same X axis and are stacked vertically. Additionally, there is a scope in this plot that shows the value of all variables for a given  just by moving the cursor (please see the attached plot). I have been able to generate stacked subplots in Python with no issues, however, not able to add a scope like this that shows the value of all variables by moving the cursor. Is this feature available in Python?This is a plot using MATLAB's :",
+        "author": "AGN",
+        "date": "2020-08-11 12:57:26Z",
+        "tags": [
+            "python",
+            "matlab",
+            "matplotlib",
+            "subplot",
+            "stacked"
+        ]
+    },
+    {
+        "title": "Docker throwing error: virtualenv: error: unrecognized arguments: --relocatable",
+        "text": "In my magical quest to get GetTogether app working, I've made substantial progress. I was thrown another error when I tried to build the Docker image. It is as follows, and I quote:Why does it keep doing this? I Googled it and the sites said that --relocatable is either deprecated or experimental. This Docker image is trying to use its own version of Python, Alpine or something? Why can't I make it use  virtualenv which  have --relocatable (I checked)?",
+        "author": "Fluffy Something-Or-Other",
+        "date": "2020-08-11 12:51:30Z",
+        "tags": [
+            "python",
+            "docker",
+            "pip",
+            "virtualenv"
+        ]
+    },
+    {
+        "title": "How to raise an error in graceful way in celery workflows?",
+        "text": "I have a celery workflow of chains and groups designed in a way such that if a particular task fails, other linked tasks are not run.I have try/except block in the first_task to handle exceptions.\nIf the first_task ends in an error and goes inside the except, celery considers that as a successful execution and still runs chained_task. Only if I have a  statement in the except block the chained_task is not executed but that leaves ugly traceback in the console.Is there any way to graceful way to handle exceptions and still return an error from a function so that celery doesn't execute the 2nd task?",
+        "author": "adi",
+        "date": "2020-08-11 12:49:02Z",
+        "tags": [
+            "python",
+            "canvas",
+            "celery",
+            "workflow"
+        ]
+    },
+    {
+        "title": "How to create a key as folder and value as files",
+        "text": "I have a bucket name testfolderInside testfolder there are test1,test2,test3Each folder have there are csv filesNeed to create a key value pair for folder and filesExpected outoutput1   output2   ",
+        "author": "Nons",
+        "date": "2020-08-11 13:18:37Z",
+        "tags": [
+            "python",
+            "amazon-web-services",
+            "amazon-s3",
+            "aws-lambda"
+        ]
+    },
+    {
+        "title": "Please enlighten me on logic entailments",
+        "text": "Hello I'm a newbie in logic and I have this problem:Given the following sentences:What's the best choice here?\na. Sentence 6 entails Sentence 2\nb. Sentence 6 entails Sentence 3\nc. Sentence 1 entails Sentence 2\nd. Sentence 1 entails Sentence 4\ne. Sentence 5 entails Sentence 6\nf. Sentence 2 entails Sentence 5\nI'm confused. I'm just sure that choice b is definitely wrong.Can anyone enlighten me on this one and why? Tia!",
+        "author": "Bee Crea",
+        "date": "2020-08-11 12:29:00Z",
+        "tags": [
+            "python",
+            "logic",
+            "logical-operators",
+            "proof"
+        ]
+    },
+    {
+        "title": "How do I format axis number format to thousands with a comma in matplotlib?",
+        "text": "How can I change the format of the numbers in the x-axis to be like  instead of ?\nIdeally, I would just like to do something like this:Here is the code:",
+        "author": "IcemanBerlin",
+        "date": "2016-11-10 11:25:39Z",
+        "tags": [
+            "python",
+            "matplotlib"
+        ]
+    },
+    {
+        "title": "Pandas Keyerror after groupby",
+        "text": "I want to filter a dataframe after having done a group by on it but am getting a keyerror, here is some example code:I want to avoid using reset_index as in the final code I will have several dataframes of similar shape that I will be aggregating/merging/concatenating.I am sure I must be missing something obvious.How can I use the column names to filter the grouped dataframe?Thanks.",
+        "author": "Giles",
+        "date": "2020-08-11 12:29:06Z",
+        "tags": [
+            "python",
+            "pandas",
+            "dataframe"
+        ]
+    },
+    {
+        "title": "ValueError: No gradients provided for any variable - Train regression keras model with custom loss function and run_eagerly=True",
+        "text": "I create a dummy regression keras model to check my custom loss before giving it to an actual model.\nFor now i only want this custom loss function to run. I want to know where and why i'm wrong and how to fix my custom loss. I appreciate any help and thank you very much in advance.\nKeras version: 2.2.4\nTensorflow version: 1.13.1\nPython version: 3.7\nThis is my code:and this is the error logs",
+        "author": "XTMeow",
+        "date": "2020-08-11 12:29:09Z",
+        "tags": [
+            "python",
+            "tensorflow",
+            "machine-learning",
+            "keras",
+            "deep-learning"
+        ]
+    },
+    {
+        "title": "In a Windows7 environment, the installation of jupyter in Pycharm was unsuccessful",
+        "text": "In order to use Jupyter Notebook,in the terminal of Pycharm,The first step is direct installation\uff1a\npip install Jupyter\nand then:\njupyter notebook\nThe following error message appears:Traceback (most recent call last):\nFile \"d:\\soft setup\\python\\lib\\runpy.py\", line 174, in _run_module_as_main\n\"\", fname, loader, pkg_name)File \"d:\\soft setup\\python\\lib\\runpy.py\", line 72, in _run_code\nexec code in run_globalsFile \"D:\\soft setup\\python\\Scripts\\jupyter.exe__.py\", line 9, in File \"d:\\soft setup\\python\\lib\\site-packages\\jupyter_core\\command.py\", line 186, in main\n_execvp(command, sys.argv[1:])File \"d:\\soft setup\\python\\lib\\site-packages\\jupyter_core\\command.py\", line 104, in _execvpraise OSError('%r not found' % cmd, errno.ENOENT)\nOSError: [Errno 'jupyter-notebook' not found] 2I tried to increase the environment variable of the computer:\n\"d:\\soft setup\\python\\lib\\site-packages\"\nThis method doesn't work,the error message is the same as above!I tried a different solution online:\npip install --upgrade --force-reinstall --no-cache-dir jupyter\nand then:\njupyter notebook\nThis method doesn't work,the error message is the same as above!I can know from the error message, I should be installed successfully jupyter Notebook, but why can't it start?",
+        "author": "dengm155",
+        "date": "2020-08-11 12:29:42Z",
+        "tags": [
+            "python",
+            "variables",
+            "pycharm",
+            "jupyter"
+        ]
+    },
+    {
+        "title": "How can I get Visual Studio to run using the environment I've selected?",
+        "text": "First of all, I am extremely new to Python and not formally trained in computer science, so I apologize if some of my terminology is incorrect or missing.As background information, there are 3 main environments I have been testing, IronPython 2.7 (no numpy), Python 2.7 (numpy installed), and Python 3.7 (no numpy installed).Regardless of the environment I choose from the drop-down list, Visual Studio will seemingly only run using the Python 3.7 environment. I've tested with simple lines such as \"import numpy\" and \"print 'Hello world'\", and regardless of the environments I've chosen and the packages installed for each, I always get errors which indicate it's using the Python 3.7 environment (numpy package not installed, print statement requires parentheses around the argument).However, when I use the interactive window, it respects the selected environment for the interactive window, and produces the expected results. This even transfers when selecting the environment of the folder containing my script, which matches the environment I've chosen in the main window. It is only when using the \"Start project\" option that it seems to force into using Python 3.7.For further information, my original script had been completely functional, and was written to interface with another software, but then there was a deep, multi-week update to the software (and potentially other things, I was only informed about the status of the software) and ever since then it has been non-functional due to this forced use of Python 3.7.Can anyone tell me why Visual Studio is doing this? How can I get Visual Studio to respect the chosen environment?",
+        "author": "kkoll",
+        "date": "2020-08-11 12:29:39Z",
+        "tags": [
+            "python",
+            "visual-studio",
+            "environment"
+        ]
+    },
+    {
+        "title": "How to extract coefficient matrices from statsmodels.tsa.api",
+        "text": "The VAR from statsmodels allows you to fit vector autoregression model for a given time series. Vector auto regression is:where Y_t is a vector, A_i are coefficient matrices, E_t is residual vector. I am having difficulties extracting A_i matrices from the model.The problem is that  gives the effect of each variable on another one by one. is it possible to extract coefficients in a matrix form?I have 100 variables and lag of order 3. Extracting coefficients manually will be time consuming. I cant believe that such popular package doesnt allow to write something like  and get the 100*100 matrix for lag of order 1.Is there any way to do this?",
+        "author": "Kate ",
+        "date": "2020-08-11 12:40:44Z",
+        "tags": [
+            "python",
+            "statsmodels"
+        ]
+    },
+    {
+        "title": "embedVar not working on python discod bot",
+        "text": "I am currently coding a discord bot, and am trying to create a command that is similar to the \"pls gayrate\" that the Dank Memer bot has. This is my code so far:When I run this code, it returns:I have all the other neccessary things to run the bot working, It's just this part that isnt. Does anyone know how to fix this problem? Thanks!",
+        "author": "MaxiTaxi27",
+        "date": "2020-08-11 12:49:50Z",
+        "tags": [
+            "python",
+            "discord",
+            "discord.py"
+        ]
+    },
+    {
+        "title": "How do I use \u201creduceLROnplateau\u201d callback method with \u201ctrain_on_batch\u201d in keras",
+        "text": "because I have a big dataset I should use  instead of  and I want to use  callback with it.What should I do?",
+        "author": "Mohammad Sadra Sharifzadeh",
+        "date": "2020-08-11 12:50:01Z",
+        "tags": [
+            "python",
+            "tensorflow",
+            "keras",
+            "artificial-intelligence"
+        ]
+    },
+    {
+        "title": "Instagram API, how to read other users followers?",
+        "text": "As Instagram changed their APIs, I wonder if there is any way to parse other's number of followers, followings, posts?Or is there any way to get user information via Python?I read  but I can only get my own information not others.What I want is getting other information without requesting their permission.In my mind, crawling is the only option but is there any better way to do this?Thank you",
+        "author": "NoSleep",
+        "date": "2020-08-11 12:47:07Z",
+        "tags": [
+            "python",
+            "api",
+            "instagram"
+        ]
+    },
+    {
+        "title": "How to change a PDF file's \u201c/Rotate\u201d key to 0 and not change PDF visually using Python",
+        "text": "For someone that worked with PDF files for years that is probably an easy one, so here's my problem:I processed several PDF files with my Python script using pdfminer.six and I now came across files with a value of \"90\" in the \"/Rotate\" key.\nThis totally ruined my script, although the orientation of the PDF is correct when I open it up in any PDF viewer.\nI was successful with something called \"cpdf\" and the function \"-upright\" but since it is not Python I wont integrate this into my script.So what I need to do, is to set the \"/Rotate\" key to 0 before processing it.Any ideas how to do this using pdfminer(.six) and/or PyPDF2/4 ?",
+        "author": "Dawko",
+        "date": "2020-08-11 13:12:27Z",
+        "tags": [
+            "python",
+            "pdf",
+            "pypdf2",
+            "pdfminer"
+        ]
+    },
+    {
+        "title": "Python, convert coordinate degrees to decimal points",
+        "text": "I have a my latitude and longitude as followsI now need to convert it to .Sure, the '-' is the only difference, but it does change when changing hemispheres, which is why a library would be idea, but I can't find one.",
+        "author": "Ronald Langeveld",
+        "date": "2020-08-11 12:55:43Z",
+        "tags": [
+            "python",
+            "geolocation",
+            "coordinates"
+        ]
+    },
+    {
+        "title": "Can you import a python module from another directory in a github repo? [duplicate]",
+        "text": "I have a github repo consisting of python files/modules which looks like this.Can I directly import the  into folder 2's  using python's commandIf not what should I do?",
+        "author": "KUSHAGRA BANSAL",
+        "date": "2020-08-11 12:54:45Z",
+        "tags": [
+            "python",
+            "python-import"
+        ]
+    },
+    {
+        "title": "Remove entries ending in 'X' from column",
+        "text": "I have a column of film titles. Some of these titles include the release date of the film (e.g. 'Toy Story (1995)'), but some do not. I want to delete the entries which DO NOT have a date. I tried to do this by saying \"If the last character is not ')', make the entire entry blank.\" I tried the following code - it didn't give me an error, but it didn't work either:For instance, a shorted dataframe might be:",
+        "author": "George",
+        "date": "2020-08-11 13:06:45Z",
+        "tags": [
+            "python",
+            "python-3.x"
+        ]
+    },
+    {
+        "title": "My Python Code outputs the same thing everytime",
+        "text": "I made a very small program for calculating the BMI but no matter what the outcome of \"bmi\" is, the output is always the same: \"Normalweight\" and \"your weight is optimal!\".\nI would love to know what I did wrong, because there arent even any errors.\nCode is:",
+        "author": "KingALLO",
+        "date": "2020-08-11 12:59:47Z",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "title": "async logging in python",
+        "text": "Assuming that I use a library that provides the ability to log asynchronously:In this case also foo () must be asynchronous?",
+        "author": "anas",
+        "date": "2020-08-11 13:01:17Z",
+        "tags": [
+            "python",
+            "async-await"
+        ]
+    },
+    {
+        "title": "Jinja2: set variable with nested variable",
+        "text": "How can I set a variable with nested variables? E.g:#yml#j2:Not sure on my jinja2 syntax.",
+        "author": "Alias",
+        "date": "2020-08-11 13:08:44Z",
+        "tags": [
+            "python",
+            "jinja2"
+        ]
+    },
+    {
+        "title": "close a file sent to url using Requests - Python",
+        "text": "In my project i have to upload some text as a file to a flask server.\ni have tried the following approach but am facing some issues:As i have to upload only text as a file so i have created a temporary file, wrote the contents, and deleted it, but this code gives me the following errorTraceback (most recent call last):\nFile \"D:\\PythonTest\\test.py\", line 121, in upload\nos.remove(os.path.join(os.getcwd(), 'testfile.txt'))\nPermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'D:\\PythonTest\\testfile.txt'As much as i can understand from the 'error report', it is caused because the file is open in the post request i had made. But i have enclosed the post request in the 'with' block so it should close it automatically. What am i doing wrong?Any help and suggesstions would be appreciated.",
+        "author": "NALIN_yo",
+        "date": "2020-08-11 13:00:18Z",
+        "tags": [
+            "python",
+            "file",
+            "python-requests",
+            "permission-denied"
+        ]
+    },
+    {
+        "title": "Aggregate DF with duplicate rows using conditions on the columns in Python",
+        "text": "I have a data frame of transactions with duplicate users.\nI want to aggregate my data and build a data frame with one row for each user.The original data frame looks like this:I want to write a function that will loop on each row and:The final data frame should look like this:Thanks for the help.",
+        "author": "Lili",
+        "date": "2020-08-11 12:58:40Z",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "title": "How to make a self aware button on ipywidgets",
+        "text": "I need to write a function that is aware of which button was clicked to call it. I am using ipywidgets and jupyter notebook.Here is some sample code:When clicked the button 1 should be passed as an argument to the  function.\nAs an example just  or 2 should be enough",
+        "author": "Rafael Neves",
+        "date": "2020-08-11 13:03:35Z",
+        "tags": [
+            "python",
+            "jupyter-notebook",
+            "ipywidgets"
+        ]
+    },
+    {
+        "title": "Cut data at given value",
+        "text": "HeiI tried to cut a data set at a given value. I want to get a new set only containing the data from index 0 till the index where the values in the data get bigger than the given value --> data[0:i]. (I made sure, with another function, that the data contains each value only once and that they are sorted from smallest to biggest.)The error I get.Do I have to set a defautl to the max_value, as it could be that the exact max_value does not occure in the data set? And how do I fix the syntax? I use python 3.7Thanks!",
+        "author": "KMK",
+        "date": "2020-08-11 13:02:56Z",
+        "tags": [
+            "python",
+            "function"
+        ]
+    },
+    {
+        "title": "How can I make this piece of code fit for only one folder that has further 160 sub folders?",
+        "text": "True images have further 160 folders each folder has 30 images.I am using following this code. But I am working with only true_images. This code is for two folders. I tried my best to make it fit for only one folder but I am getting empty output inandPlease suggest me some changes in code to make it fit for one. I want to divide my true_images folder in true_test, true_train, true_val. True images have 160 subfolders inside and each folder has 30 true images.",
+        "author": "Charlie Green",
+        "date": "2020-08-11 13:02:40Z",
+        "tags": [
+            "python",
+            "image",
+            "computer-vision",
+            "image-recognition",
+            "training-data"
+        ]
+    },
+    {
+        "title": "Average different layers in a Array without considering NaN value",
+        "text": "I have masked array data in three layer (accessing from  file), which is given below. I want to  these three layer without considering  value () cell while averaging. Any suggestion will be helpful.Output Should be like this:",
+        "author": "Addy",
+        "date": "2020-08-11 13:03:48Z",
+        "tags": [
+            "python",
+            "arrays",
+            "numpy",
+            "nan",
+            "mean"
+        ]
+    },
+    {
+        "title": "Save input and ask to use it again when restarting program",
+        "text": "How can I save a user's input and ask them if they want to use it again when restarting the program, so they don't have to enter the same thing every time they close the program?",
+        "author": "Sen0a",
+        "date": "2020-08-11 13:01:55Z",
+        "tags": [
+            "python",
+            "python-3.x",
+            "authentication",
+            "input",
+            "passwords"
+        ]
+    },
+    {
+        "title": "Function not callable?",
+        "text": "I'm trying to learn python and I ran into a problem while writing a simple login page.It was working before and it just stopped working. it says that the Login() function is not callable.",
+        "author": "Nemesis",
+        "date": "2020-08-11 13:06:12Z",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "title": "Should imports be duplicated in doctests?",
+        "text": "I have a doctest that requires multiple imports. The imports are already in the global scope of the module, so the doctest can pass without the imports being specified within the doctest. But is it better practise to include the imports within the doctest itself so that the code snippet in the doctest truly stands alone?E.g. this works:Or should I also add the import like:",
+        "author": "Chris_Rands",
+        "date": "2020-08-11 13:05:09Z",
+        "tags": [
+            "python",
+            "import",
+            "doctest"
+        ]
+    },
+    {
+        "title": "How should I structure Django Blog Website with reusable applications? [closed]",
+        "text": "\r\n                     Update the question so it focuses on one problem only by .\r\n                Closed .I am developing a blogging site. I need help in structuring the django applications.\n\n\nFeatures i have are:\n1. Blog Feed\n2. Moderator Site\n3. Dashboard for each author to analyse his interactions\n4. Notifications for badges earned, moderation, chats, etc\n5. Messenger \nand a few more.currently i have :Should the  be a different app. Should there be a different app for dashboard.\nI have a few there details like saving billing information which i will be using in other projects.There are other so many things in settings site. should different settings forms like email notification and billing , organization, notification settings, themes settings be different apps.",
+        "author": "Aagam Sheth",
+        "date": "2020-08-11 13:14:39Z",
+        "tags": [
+            "python",
+            "django"
+        ]
+    },
+    {
+        "title": "Fixing Incorrect Python Array Format",
+        "text": "For some reason i cannot print either the entire array or loop through in the correct format.Each entry in the array should be a separate url, what am i doing wrong, could  someone please point me in the right direction.",
+        "author": "hermann",
+        "date": "2020-08-11 13:09:47Z",
+        "tags": [
+            "python",
+            "arrays",
+            "python-3.x",
+            "list",
+            "arraylist"
+        ]
+    },
+    {
+        "title": "How can we calculate prediction intervals for XGBoost regression model in python?",
+        "text": "I need to calculate uncertainty prediction instead of point prediction on Boston Housing Data.",
+        "author": "Tanvi Bagla",
+        "date": "2020-08-11 13:12:16Z",
+        "tags": [
+            "python",
+            "linear-regression",
+            "prediction",
+            "quantile-regression"
+        ]
+    },
+    {
+        "title": "Python library requests return \u201cError 503\u201d opening a link on heroku",
+        "text": "This script works fine when I run it locally but when I upload it on Heroku, the  function fail to open the Amazon link returning  and the script end with the error \"\" (I think this happen because  failed to open the Amazon link). How I can solve the problem so that  return  on Heroku?",
+        "author": "HeroGalak_01",
+        "date": "2020-08-11 13:15:22Z",
+        "tags": [
+            "python",
+            "python-3.x",
+            "heroku",
+            "beautifulsoup"
+        ]
+    },
+    {
+        "title": "How to filter rows and words in lower case in pandas dataframe?",
+        "text": "Hi I would like to know how to select rows which contains lower cases in the following dataframe:What I would like to do is to filter rows where Note column contains at least one word in lower case:and collect in a list all the words in lower case: I have tried to filter rows is :For appending words in the list, I think I should first tokenise the string, then select all the terms in lower case. Am I right?",
+        "author": "Luca Di Mauro",
+        "date": "2020-08-11 13:04:42Z",
+        "tags": [
+            "python",
+            "pandas"
+        ]
+    },
+    {
+        "title": "PySpark GroupBy - Keep Value or Null if No Value",
+        "text": "I'm coding in PySpark and have a data frame that has tokens and their associated phrases. The same phrase can appear in multiple rows so I want to groupby so that there is only one row of the phrase, but I want to keep the one that has an associated descriptor. If there is no descriptor, I want to keep one row with the null.\nExample data set:I want it to look like:",
+        "author": "user3242036",
+        "date": "2020-08-11 13:18:23Z",
+        "tags": [
+            "python",
+            "pyspark",
+            "apache-spark-sql"
+        ]
+    },
+    {
+        "title": "tkinter button text color is not changing",
+        "text": "The button text color is blue on creation, once it is clicked the button text color should change to red color as per the code. But on clicking the color is not changing",
+        "author": "Manoj Buddha",
+        "date": "2020-08-11 13:18:43Z",
+        "tags": [
+            "python",
+            "tkinter"
+        ]
+    },
+    {
+        "title": "How to pass event parameters in condition function in pytransition",
+        "text": "I am trying to pass a parameter to conditions. But it was giving the following errorcode:Error:How to share the variables no, and mod with each of these callbacks. I tried to use the event.\nIn this simple example, I tried to create a state machine to reach the state based on whether the given input is even or odd.",
+        "author": "Sreeja",
+        "date": "2020-08-11 13:16:54Z",
+        "tags": [
+            "python",
+            "transition",
+            "fsm",
+            "pytransitions"
+        ]
+    },
+    {
+        "title": "Change CI to 95% in Logistic Regression",
+        "text": "I'm using the following code which I found in the link below:This code is great but I would like to set the CI to 95% instead of the 2.5%. Is it possible? In doing a bit a surfing, I found that the default is typically set to an alpha of .05 (95%) but this doesn't seem to be the case for this code.",
+        "author": "Raven",
+        "date": "2020-08-11 13:19:02Z",
+        "tags": [
+            "python",
+            "pandas"
+        ]
+    }
+]
